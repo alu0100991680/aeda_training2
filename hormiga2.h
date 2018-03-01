@@ -10,9 +10,8 @@ using namespace std;
 class hormiga2: public hormiga {
 public:
     hormiga2(int x, int y, rejilla *r): hormiga(x,y,r) {}
-protected:
-    virtual void mover();  // <---- METODO SOBRECARGADO EN EL HIJO
+    void mover();  // <---- METODO SOBRECARGADO EN EL HIJO
 };
 
-#endif /* HORMIGA_H */
+#endif /* HORMIGA2_H */
 
