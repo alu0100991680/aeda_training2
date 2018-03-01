@@ -8,12 +8,12 @@ maquina::~maquina() {
 }
 
 void maquina::add_hormiga(hormiga* h){
-    this->hormigas.push_back(*h);
+    this->hormigas.push_back(h);
 }
 
 void maquina::iteracion(){
     for (int i=0;i<this->hormigas.size();i++){
-        this->hormigas[i].mover();
+        this->hormigas[i]->mover();
     }
 }
 
@@ -25,7 +25,7 @@ string maquina::estado(){
     rejilla *copy_r = new rejilla(*this->r);
     
     for (int a=0;a<this->hormigas.size();a++){
-        copy_r->set_position_status(this->hormigas[a].get_x(), this->hormigas[a].get_y(), this->hormigas[a].get_direccion_display());
+        copy_r->set_position_status(this->hormigas[a]->get_x(), this->hormigas[a]->get_y(), this->hormigas[a]->get_direccion_display());
     }
     
     for (int i = 0; i < dx; ++i){

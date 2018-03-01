@@ -97,18 +97,6 @@ void hormiga::mover() {
     }
 }
 
-int hormiga::get_x() {
-    return this->x;
-}
-
-int hormiga::get_y() {
-    return this->y;
-}
-
-rejilla * hormiga::get_rejilla(){
-    return this->r_asocida;
-}
-
 char hormiga::get_direccion_display() {
     if(this->direccion_display == arriba){
         return '^';
@@ -122,6 +110,18 @@ char hormiga::get_direccion_display() {
     if(this->direccion_display == derecha){
         return '>';
     }
+}
+
+rejilla * hormiga::get_rejilla(){
+    return this->r_asocida;
+}
+
+int hormiga::get_x() {
+    return this->x;
+}
+
+int hormiga::get_y() {
+    return this->y;
 }
 
 hormiga::~hormiga() {

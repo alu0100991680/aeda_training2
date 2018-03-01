@@ -2,7 +2,6 @@
 #define HORMIGA2_H
 
 #include <string>
-#include "rejilla.h"
 #include "hormiga.h"
 
 using namespace std;

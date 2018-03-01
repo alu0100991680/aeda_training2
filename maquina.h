@@ -16,7 +16,7 @@ public:
     string estado();
 private:
     rejilla *r;
-    vector<hormiga> hormigas;
+    vector<hormiga*> hormigas;
 };
 
 #endif /* MAQUINA_H */
