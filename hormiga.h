@@ -15,9 +15,9 @@ public:
     rejilla *get_rejilla();
     char get_direccion_display();
     void modificar_posicion(int _x, int _y);
-    void mover();
+    virtual void mover();                            // <---- METODO PADRE
     enum direcciones { arriba=0, abajo=1, derecha=2, izquierda=3 };
-private:
+protected: // Para darle alcance a las clases hijas
     int x;
     int y;
     rejilla *r_asocida;

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=aeda_entrega2
+PROJECTNAME=aeda_training2
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>hormiga.h</itemPath>
+      <itemPath>hormiga2.h</itemPath>
       <itemPath>maquina.h</itemPath>
       <itemPath>rejilla.h</itemPath>
     </logicalFolder>
@@ -16,6 +17,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>hormiga.cpp</itemPath>
+      <itemPath>hormiga2.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>maquina.cpp</itemPath>
       <itemPath>rejilla.cpp</itemPath>
@@ -31,7 +33,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>readme.md</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -47,13 +48,15 @@
       </item>
       <item path="hormiga.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="hormiga2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hormiga2.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="maquina.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="maquina.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="readme.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="rejilla.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -84,13 +87,15 @@
       </item>
       <item path="hormiga.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="hormiga2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hormiga2.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="maquina.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="maquina.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="readme.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="rejilla.cpp" ex="false" tool="1" flavor2="0">
       </item>

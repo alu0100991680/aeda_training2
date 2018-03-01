@@ -1,8 +1,8 @@
-build/Debug/GNU-Linux/maquina.o: maquina.cpp maquina.h hormiga.h \
- rejilla.h
+build/Debug/GNU-Linux/maquina.o: maquina.cpp maquina.h rejilla.h \
+ hormiga.h
 
 maquina.h:
 
-hormiga.h:
-
 rejilla.h:
+
+hormiga.h:

@@ -22,6 +22,8 @@ private:
     int dx;
     int dy;
     vector<vector<char> > c_rejilla;
+    
+    
 };
 
 #endif /* REJILLA_H */

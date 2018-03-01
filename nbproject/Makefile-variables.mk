@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=aeda_entrega2
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/aeda_entrega2
+CND_ARTIFACT_NAME_Debug=aeda_training2
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/aeda_training2
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=aedaentrega2.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/aedaentrega2.tar
+CND_PACKAGE_NAME_Debug=aedatraining2.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/aedatraining2.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=aeda_entrega2
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/aeda_entrega2
+CND_ARTIFACT_NAME_Release=aeda_training2
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/aeda_training2
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=aedaentrega2.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/aedaentrega2.tar
+CND_PACKAGE_NAME_Release=aedatraining2.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/aedatraining2.tar
 #
 # include compiler specific variables
 #
